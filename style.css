@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 10%, 63%);
+    --Grayish-blue: hsl(192, 100%, 82%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: var(--Grayish-blue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.main-box {
+    width: 320px;
+    height: 520px;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.info-box {
+    width: 300px;
+    height: 160px;
+    margin: 20px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.info-box h2 {
+    color: var(--Dark-blue);
+    font-family: 'Outfit', sans-serif;
+}
+
+.info-box p {
+    color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+
+.attribution a {
+    text-decoration: none;
+    color: darkblue;
+}
